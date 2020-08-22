@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Adyen" Version="5.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\worldpay-lib-dotnet-newer\worldpay-lib-dotnet-core\Worldpay.Sdk\bin\Debug\net46\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Worldpay.Sdk">
+      <HintPath>..\..\worldpay-lib-dotnet-newer\worldpay-lib-dotnet-core\Worldpay.Sdk\bin\Debug\net46\Worldpay.Sdk.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
